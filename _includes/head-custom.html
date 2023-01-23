@@ -8,33 +8,33 @@
   gtag('config', 'G-6B5VXCJKJV');
 </script>
 
-<script>console.log("head-custom.html")</script>
-
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-6B5VXCJKJV"></script>
 <script>
-gtag('event','read_article', {
-    "author":"Bill Q",
-    "title":"Hur man tillverkar en ryggsäck",
-    "number_of_pages":2,
+function sendReadEvent(title, numberOfCharacters) {
+    gtag('event', 'read_article', {
+        "author": "Ililta ",
+        "title": title,
+        "number_of_characters": numberOfCharacters,
+    });
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+
+    // Skickar event vid klick på artikel 1
+    document.getElementById("read-article-1").addEventListener("click", () => {
+        sendReadEvent("Article 1", 50)
+    });
+
+    // Skickar event vid klick på artikel 2
+    document.getElementById("read-article-2").addEventListener("click", () => {
+        sendReadEvent("Article 2", 100)
+    });
+
+    // Skickar event vid klick på artikel 3
+    document.getElementById("read-article-3").addEventListener("click", () => {
+        sendReadEvent("Article 3", 150)
+    });
+
 });
+  
+ console.log("2023-01-23")
 </script>
-   <!-- script to create new button -->
-        <script>
-            function Geeks() {
-                var myDiv = document.getElementById("GFG");
-                 
-                // creating button element
-                var button = document.createElement('BUTTON');
-                 
-                // creating text to be
-                //displayed on button
-                var text = document.createTextNode("Button");
-                 
-                // appending text to button
-                button.appendChild(text);
-                 
-                // appending button to div
-                myDiv.appendChild(button); ;
-            }
-        </script>
