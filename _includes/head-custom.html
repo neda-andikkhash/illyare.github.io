@@ -11,9 +11,9 @@
 
 
 <script>
-function sendReadEvent(title, numberOfCharacters) {
+function sendReadEvent(title, numberOfCharacters, author) {
     gtag('event', 'read_article', {
-        "author": "Author",
+        "author": author,
         "title": title,
         "number_of_characters": numberOfCharacters,
     });
