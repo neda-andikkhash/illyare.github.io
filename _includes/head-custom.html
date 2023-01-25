@@ -13,7 +13,7 @@
 <script>
 function sendReadEvent(title, numberOfCharacters) {
     gtag('event', 'read_article', {
-        "author": "Ililta ",
+        "author": "Author",
         "title": title,
         "number_of_characters": numberOfCharacters,
     });
@@ -26,22 +26,22 @@ document.addEventListener("DOMContentLoaded", () => {
     if (readArticle1Button) {
         // Skickar event vid klick på artikel 1
         readArticle1Button.addEventListener("click", () => {
-            sendReadEvent("Article 1", 50)
+            sendReadEvent("Article 1", 50,"Sellam")
         });
 
         // Skickar event vid klick på artikel 2
         document.getElementById("read-article-2").addEventListener("click", () => {
-            sendReadEvent("Article 2", 100)
+            sendReadEvent("Article 2", 100,"Neda")
         });
 
         // Skickar event vid klick på artikel 3
         document.getElementById("read-article-3").addEventListener("click", () => {
-            sendReadEvent("Article 3", 150)
+            sendReadEvent("Article 3", 150," Berket")
         });
     }
 
 });
   
- console.log("2023-01-23 3")
+ console.log("2023-01-23 4")
 </script>
 
