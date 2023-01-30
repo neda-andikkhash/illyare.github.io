@@ -18,5 +18,5 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 
 [Subscribe 500](/subscribed)
 
-[Inlämningsuppgift](/artikel)
+[Inlämningsuppgift](/artiklar)
 
