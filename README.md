@@ -12,9 +12,9 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 
 [Purchase complete](/purchase)
 
-[subscribe_50](/subscribed)
+[subscribe 50](/subscribed)
 
-[subscribe_250](/subscribed)
+[subscribe 250](/subscribed)
 
-[subscribe_500](/subscribed)
+[subscribe 500](/subscribed)
 
