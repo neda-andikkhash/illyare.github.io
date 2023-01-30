@@ -20,28 +20,28 @@ function sendReadEvent(timeRead, articleName) {
 
 document.addEventListener("DOMContentLoaded", () => {
 
-    const readArticle1Button = document.getElementById("read-article-1");
+    const articleRead1Button = document.getElementById("article_read_1");
 
-    if (readArticle1Button) {
+    if (articleRead1Button) {
         // Skickar event vid klick på artikel 1
-        readArticle1Button.addEventListener("click", () => {
+        articleRead1Button.addEventListener("click", () => {
             sendReadEvent("Article 1", 5)
         });
 
         // Skickar event vid klick på artikel 2
-        document.getElementById("read-article-2").addEventListener("click", () => {
+        document.getElementById("article_read_2").addEventListener("click", () => {
             sendReadEvent("Article 2", 11)
         });
 
         // Skickar event vid klick på artikel 3
-        document.getElementById("read-article-3").addEventListener("click", () => {
+        document.getElementById("article_read_3").addEventListener("click", () => {
             sendReadEvent("Article 3", 16)
         });
     }
 
 });
   
- console.log("ver_1")
+ console.log("ver_2")
 </script>
 
 
